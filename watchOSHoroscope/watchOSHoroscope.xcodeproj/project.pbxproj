@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C373D432BDE291100D3BB94 /* watchOSHoroscope Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 5C373D422BDE291100D3BB94 /* watchOSHoroscope Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5C373D482BDE291100D3BB94 /* watchOSHoroscopeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C373D472BDE291100D3BB94 /* watchOSHoroscopeApp.swift */; };
+		5C373D4A2BDE291100D3BB94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C373D492BDE291100D3BB94 /* ContentView.swift */; };
+		5C373D4C2BDE291200D3BB94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C373D4B2BDE291200D3BB94 /* Assets.xcassets */; };
+		5C373D4F2BDE291200D3BB94 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C373D4E2BDE291200D3BB94 /* Preview Assets.xcassets */; };
+		5C373D5A2BDE2F5E00D3BB94 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C373D592BDE2F5E00D3BB94 /* Model.swift */; };
+		5C53C9A22BE233CF00958E8E /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C53C9A12BE233CE00958E8E /* TableCell.swift */; };
+		5C53C9A42BE247C100958E8E /* ZodiacDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C53C9A32BE247C100958E8E /* ZodiacDetail.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C373D442BDE291100D3BB94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C373D362BDE291000D3BB94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C373D412BDE291100D3BB94;
+			remoteInfo = "watchOSHoroscope Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5C373D552BDE291200D3BB94 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				5C373D432BDE291100D3BB94 /* watchOSHoroscope Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5C373D3C2BDE291100D3BB94 /* watchOSHoroscope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watchOSHoroscope.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C373D422BDE291100D3BB94 /* watchOSHoroscope Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watchOSHoroscope Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C373D472BDE291100D3BB94 /* watchOSHoroscopeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchOSHoroscopeApp.swift; sourceTree = "<group>"; };
+		5C373D492BDE291100D3BB94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5C373D4B2BDE291200D3BB94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C373D4E2BDE291200D3BB94 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5C373D592BDE2F5E00D3BB94 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		5C53C9A12BE233CE00958E8E /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
+		5C53C9A32BE247C100958E8E /* ZodiacDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZodiacDetail.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C373D3F2BDE291100D3BB94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C373D352BDE291000D3BB94 = {
+			isa = PBXGroup;
+			children = (
+				5C373D462BDE291100D3BB94 /* watchOSHoroscope Watch App */,
+				5C373D3D2BDE291100D3BB94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C373D3D2BDE291100D3BB94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C373D3C2BDE291100D3BB94 /* watchOSHoroscope.app */,
+				5C373D422BDE291100D3BB94 /* watchOSHoroscope Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C373D462BDE291100D3BB94 /* watchOSHoroscope Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				5C373D472BDE291100D3BB94 /* watchOSHoroscopeApp.swift */,
+				5C373D492BDE291100D3BB94 /* ContentView.swift */,
+				5C53C9A12BE233CE00958E8E /* TableCell.swift */,
+				5C53C9A32BE247C100958E8E /* ZodiacDetail.swift */,
+				5C373D592BDE2F5E00D3BB94 /* Model.swift */,
+				5C373D4B2BDE291200D3BB94 /* Assets.xcassets */,
+				5C373D4D2BDE291200D3BB94 /* Preview Content */,
+			);
+			path = "watchOSHoroscope Watch App";
+			sourceTree = "<group>";
+		};
+		5C373D4D2BDE291200D3BB94 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5C373D4E2BDE291200D3BB94 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C373D3B2BDE291100D3BB94 /* watchOSHoroscope */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C373D562BDE291200D3BB94 /* Build configuration list for PBXNativeTarget "watchOSHoroscope" */;
+			buildPhases = (
+				5C373D3A2BDE291100D3BB94 /* Resources */,
+				5C373D552BDE291200D3BB94 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C373D452BDE291100D3BB94 /* PBXTargetDependency */,
+			);
+			name = watchOSHoroscope;
+			productName = watchOSHoroscope;
+			productReference = 5C373D3C2BDE291100D3BB94 /* watchOSHoroscope.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		5C373D412BDE291100D3BB94 /* watchOSHoroscope Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C373D522BDE291200D3BB94 /* Build configuration list for PBXNativeTarget "watchOSHoroscope Watch App" */;
+			buildPhases = (
+				5C373D3E2BDE291100D3BB94 /* Sources */,
+				5C373D3F2BDE291100D3BB94 /* Frameworks */,
+				5C373D402BDE291100D3BB94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "watchOSHoroscope Watch App";
+			productName = "watchOSHoroscope Watch App";
+			productReference = 5C373D422BDE291100D3BB94 /* watchOSHoroscope Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C373D362BDE291000D3BB94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					5C373D3B2BDE291100D3BB94 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					5C373D412BDE291100D3BB94 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 5C373D392BDE291000D3BB94 /* Build configuration list for PBXProject "watchOSHoroscope" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C373D352BDE291000D3BB94;
+			productRefGroup = 5C373D3D2BDE291100D3BB94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C373D3B2BDE291100D3BB94 /* watchOSHoroscope */,
+				5C373D412BDE291100D3BB94 /* watchOSHoroscope Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C373D3A2BDE291100D3BB94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C373D402BDE291100D3BB94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C373D4F2BDE291200D3BB94 /* Preview Assets.xcassets in Resources */,
+				5C373D4C2BDE291200D3BB94 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C373D3E2BDE291100D3BB94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C373D4A2BDE291100D3BB94 /* ContentView.swift in Sources */,
+				5C373D5A2BDE2F5E00D3BB94 /* Model.swift in Sources */,
+				5C53C9A22BE233CF00958E8E /* TableCell.swift in Sources */,
+				5C53C9A42BE247C100958E8E /* ZodiacDetail.swift in Sources */,
+				5C373D482BDE291100D3BB94 /* watchOSHoroscopeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C373D452BDE291100D3BB94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C373D412BDE291100D3BB94 /* watchOSHoroscope Watch App */;
+			targetProxy = 5C373D442BDE291100D3BB94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5C373D502BDE291200D3BB94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C373D512BDE291200D3BB94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		5C373D532BDE291200D3BB94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"watchOSHoroscope Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = N62N447LUW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = watchOSHoroscope;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pathakmanvendu.watchOSHoroscope.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		5C373D542BDE291200D3BB94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"watchOSHoroscope Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = N62N447LUW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = watchOSHoroscope;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pathakmanvendu.watchOSHoroscope.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		5C373D572BDE291200D3BB94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N62N447LUW;
+				INFOPLIST_KEY_CFBundleDisplayName = watchOSHoroscope;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pathakmanvendu.watchOSHoroscope;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5C373D582BDE291200D3BB94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N62N447LUW;
+				INFOPLIST_KEY_CFBundleDisplayName = watchOSHoroscope;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pathakmanvendu.watchOSHoroscope;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C373D392BDE291000D3BB94 /* Build configuration list for PBXProject "watchOSHoroscope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C373D502BDE291200D3BB94 /* Debug */,
+				5C373D512BDE291200D3BB94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C373D522BDE291200D3BB94 /* Build configuration list for PBXNativeTarget "watchOSHoroscope Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C373D532BDE291200D3BB94 /* Debug */,
+				5C373D542BDE291200D3BB94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C373D562BDE291200D3BB94 /* Build configuration list for PBXNativeTarget "watchOSHoroscope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C373D572BDE291200D3BB94 /* Debug */,
+				5C373D582BDE291200D3BB94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C373D362BDE291000D3BB94 /* Project object */;
+}
